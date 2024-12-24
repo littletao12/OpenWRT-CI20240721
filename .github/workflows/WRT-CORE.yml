@@ -111,7 +111,6 @@ jobs:
 
       - name: Clone Code
         run: |
-          mkdir ./wrt/
           git clone --depth=1 --single-branch --branch $WRT_BRANCH $WRT_REPO ./wrt/
 
           cd ./wrt/ && echo "WRT_HASH=$(git log -1 --pretty=format:'%h')" >> $GITHUB_ENV
