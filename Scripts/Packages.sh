@@ -33,7 +33,7 @@ UPDATE_PACKAGE "advancedplus" "VIKINGYFY/luci-app-advancedplus" "main"
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
-	UPDATE_PACKAGE "homeproxy" "littletao12/homeproxy" "main"
+	UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 	UPDATE_PACKAGE "mihomo" "littletao12/OpenWrt-mihomo" "main" "pkg"
 fi
 
