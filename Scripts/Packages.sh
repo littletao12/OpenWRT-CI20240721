@@ -34,7 +34,7 @@ UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "homeproxy" "littletao12/homeproxy" "main"
-	UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"
+	UPDATE_PACKAGE "mihomo" "littletao12/OpenWrt-mihomo" "main" "pkg"
 fi
 
 if [[ $WRT_REPO == *"openwrt-6.x"* ]]; then
